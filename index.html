@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Endless Drawing</title>
+<meta name="description" content="Privacy policy for the Endless Drawing Android app by iRolled20, LLC." />
+<style>
+  :root { --brand: #6A3DE8; --ink: #1c1b22; --muted: #5b5966; --bg: #faf9fe; --card: #ffffff; --line: #ece9f6; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { background: var(--brand); color: #fff; }
+  .header-inner { max-width: 760px; margin: 0 auto; padding: 40px 20px; }
+  header h1 { margin: 0 0 6px; font-size: 28px; letter-spacing: -0.01em; }
+  header p { margin: 0; opacity: 0.9; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 26px; margin-top: 22px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; letter-spacing: -0.01em; }
+  h2:first-child { margin-top: 0; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--brand); }
+  .meta { color: var(--muted); font-size: 14px; }
+  .summary { background: #f3effe; border-left: 4px solid var(--brand); border-radius: 8px; padding: 14px 18px; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 40px; }
+  code { background: #f1eefb; padding: 1px 6px; border-radius: 5px; font-size: 0.92em; }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>Privacy Policy — Endless Drawing</h1>
+    <p>iRolled20, LLC · Effective June 6, 2026</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="card">
+    <p>Endless Drawing (<code>com.irolled20.endlessdrawing</code>) is a local-first
+    infinite-canvas drawing app. We designed it to keep your work on your device. This
+    policy explains exactly what data the app handles, why, and the limited cases where
+    data leaves your device — always at your initiative.</p>
+
+    <h2>Summary</h2>
+    <div class="summary">
+      <ul>
+        <li><strong>Your drawings stay on your device by default.</strong> We run no servers and do not collect, transmit, or sell your artwork or personal information.</li>
+        <li><strong>No analytics, advertising, tracking, or crash-reporting SDKs.</strong></li>
+        <li><strong>Two optional features can move data off-device, only when you turn them on:</strong> Google Drive backup and screen recording.</li>
+      </ul>
+    </div>
+
+    <h2>Data the app stores on your device</h2>
+    <ul>
+      <li><strong>Drawings and documents</strong> — strokes, imported images, layers, bookmarks, palettes, themes, and per-canvas settings.</li>
+      <li><strong>App preferences</strong> — brush, color, and display settings.</li>
+    </ul>
+    <p>This data lives in the app's private storage and is removed when you uninstall the app or clear its data.</p>
+
+    <h2>Android Auto Backup</h2>
+    <p>If you have Android system backup enabled, Android may copy the app's drawings and
+    preferences to your personal Google account backup — a standard Android feature
+    controlled by your device settings. We explicitly <strong>exclude your connected-account
+    identity</strong> (see below) from this backup.</p>
+
+    <h2>Google Drive backup (optional)</h2>
+    <p>If you choose to connect a Google account for backup:</p>
+    <ul>
+      <li>We use <strong>Sign in with Google</strong> and request a single, narrow scope — <code>drive.file</code>. This grants access <strong>only to files the app itself creates</strong> in your Drive. It does <strong>not</strong> give access to your other Drive files.</li>
+      <li>Backups contain <strong>your own drawings</strong>, uploaded to <strong>your own</strong> Google Drive. We never receive or store a copy on any server of ours.</li>
+      <li>When connected, the app displays and stores <strong>on your device</strong> the connected account's email and display name so you can see which account is linked. This identity is <strong>excluded from cloud backup and device transfer</strong>.</li>
+      <li>Access tokens are held <strong>in memory only</strong> during a backup and are never written to disk or logged.</li>
+      <li>You can disconnect the account at any time in the app, clearing the stored identity and any in-memory token.</li>
+    </ul>
+    <p>Your use of Google Drive is also governed by
+    <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google's Privacy Policy</a>.</p>
+
+    <h2>Screen recording (optional)</h2>
+    <ul>
+      <li>Recording only starts when you explicitly tap record and grant the Android screen-capture permission. A persistent notification is shown while recording.</li>
+      <li>Recordings are saved <strong>locally</strong> to <code>Movies/Endless Drawing</code>. They are <strong>not</strong> uploaded or transmitted by the app.</li>
+    </ul>
+
+    <h2>Permissions we request and why</h2>
+    <ul>
+      <li><strong>Internet / Network state</strong> — only to upload to your Google Drive when you use the optional backup feature. No network calls are made otherwise.</li>
+      <li><strong>Foreground service / media projection</strong> — to run the optional screen recorder.</li>
+      <li><strong>Post notifications</strong> — to show the recording-in-progress notification (with a Stop control) on Android 13 and later.</li>
+    </ul>
+
+    <h2>Data sharing</h2>
+    <p>We do <strong>not</strong> sell, rent, or share your personal information or artwork
+    with third parties. The only data transfer is the optional, user-initiated upload of
+    your own drawings to your own Google Drive.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The app is not directed at children under 13 and does not knowingly collect personal
+    information from them.</p>
+
+    <h2>Data retention and deletion</h2>
+    <p>All app data is stored locally. To delete it, clear the app's data or uninstall the
+    app. To delete Drive backups, remove the app's files from your Google Drive, or
+    disconnect the account in-app and delete the backup folder it created.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy as the app evolves. Material changes will be reflected by
+    an updated effective date at the top of this document.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy? Contact iRolled20, LLC at
+    <a href="mailto:support@irolled20.com">support@irolled20.com</a>.</p>
+  </div>
+
+  <footer>© 2026 iRolled20, LLC · Endless Drawing</footer>
+</div>
+</body>
+</html>
